@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
 .page {
     background: var(--background-color);
     font-family: var(--accent-font); 
+    background-attachment: fixed;
+    background-position: center;
     overflow: auto;
     padding: 10px;
   }
@@ -30,7 +36,7 @@
     line-height: 23.4px;
     margin-bottom: 47px;
   }
-  .header__text-decor{
+  .header__text-decor {
     height: fit-content;
   }
   .decorated-zone {
@@ -324,7 +330,7 @@
       grid-auto-flow: row dense;
     }
     .section__why,
-    .section__how{
+    .section__how {
       display: grid;
       grid-template-columns: 32% 1fr;
     }

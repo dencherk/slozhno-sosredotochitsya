@@ -5,7 +5,16 @@
 */
 
 .page.theme_dark {
-  
+  --background-color: #000028;
+  --accent-font: IBM Plex Mono, 'sans-serif';
+  --article-text-color: #F1B2CE;
+  --button-text-color: #ff0070;
+  --background-image: url(/images/cover-image-dark.png);
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --accent-color: #ff0070;
+  --rec-visible: visible;
+  --title-color: #DB00FF;
+  --background-text-color: #ff0070;
 }
 :root .theme_dark {
   --background-color: #000028;
