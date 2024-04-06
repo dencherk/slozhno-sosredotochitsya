@@ -1,3 +1,9 @@
+body {
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
 .page {
     background: var(--background-color);
     font-family: var(--accent-font);
