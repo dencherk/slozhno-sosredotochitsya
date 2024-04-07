@@ -12,6 +12,7 @@
 }
 :root .theme_dark {
   --background-color: #000028;
+  --text-color: #000028;
   --accent-font: IBM Plex Mono, 'sans-serif';
   --article-text-color: #F1B2CE;
   --button-text-color: #ff0070;

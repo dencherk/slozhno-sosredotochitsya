@@ -4,6 +4,8 @@ body {
   border: 0;
 }
 .page {
+    margin-left: auto;
+    margin-right: auto;
     background: var(--background-color);
     font-family: var(--accent-font);
     background-image: var(--background-image);
@@ -132,7 +134,7 @@ body {
     margin-block-start: 30px;
   }
   .main__title {
-    color: var(--accent-color, rgba(255, 0, 112));
+    color: var(--accent-text-color, rgba(255, 0, 112));
     font-family: var(--accent-font), sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -151,7 +153,7 @@ body {
   }
   .content__title {
     color: var(--text-color);
-    background-color: var(--accent-color);
+    background-color: var(--background-text-color);
     font-family: var(--accent-font), sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -200,6 +202,8 @@ body {
 
   @media (min-width: 768px) {
     .header {
+      margin-left: auto;
+      margin-right: auto;
       display: grid;
       grid-template-rows: 1fr min-content 1fr;
       padding: 10px;

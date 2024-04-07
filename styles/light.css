@@ -20,6 +20,7 @@
   --rec-visible: none;
   --title-color: #FFC2E6;
   --background-text-color: #ff8dcb;
+  --accent-text-color: #353430;
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -32,5 +33,6 @@
   --rec-visible: none;
   --title-color: #FFC2E6;
   --background-text-color: #ff8dcb;
+  --accent--textcolor: #353430;
  }
 }
