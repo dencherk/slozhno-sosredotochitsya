@@ -6,6 +6,9 @@ body {
 .page {
     background: var(--background-color);
     font-family: var(--accent-font);
+    background-image: var(--background-image);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     overflow: auto;
@@ -15,11 +18,6 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
-    background-image: var(--background-image);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-position: center;
   }
   .header__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -199,18 +197,11 @@ body {
     min-block-size: 668px;
     margin-top: 50px;
   }
-  .footer.decorated-zone::before {
-    align-self: start;
-    justify-self: end;
-  }
-  .footer.decorated-zone::after {
-    align-self: end;
-    justify-self: start;
- 
-  }
+
   @media (min-width: 768px) {
     .header {
       display: grid;
+      grid-template-rows: 1fr min-content 1fr;
       padding: 10px;
     }
     .header__title {
@@ -220,7 +211,7 @@ body {
     .header__text-decor {
       justify-self: end;
       align-self: start;
-      margin-block-start: 4.6%;
+      margin-block-start: 20%;
       inline-size: 50%;
     }
     .decorated-zone::before {
@@ -238,7 +229,7 @@ body {
       inset-block-start: 10px;
     }
     .header__theme-menu {
-      margin-top: 104px;
+      margin-block-end: 1%;
     }
     .main__content {
       padding: 20px 10px;
@@ -306,10 +297,13 @@ body {
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       align-self: center;
       line-height: 129.53px;
+      margin-block-end: 5%;
     }
     .header__theme-menu {
       justify-self: center;
-      margin-top: -228px;
+      align-self: flex-start;
+      margin: 0;
+      margin-block-end: 25%;
     }
     .header__theme-menu-list {
       display: grid;
@@ -319,6 +313,9 @@ body {
     .header__theme-menu-item {
       text-align: center;
       min-block-size: 26px;
+    }
+    .header__text-decor {
+      margin-block-start: 3.3%;
     }
     .section__what {
       grid-template-rows: repeat(2, auto);
