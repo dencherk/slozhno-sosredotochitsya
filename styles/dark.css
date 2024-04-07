@@ -19,8 +19,10 @@
   --background-image: url(../images/cover-image-dark.png);
   --hover-color: rgba(255, 0, 112, 0.4);
   --accent-color: #ff0070;
+  --accent-color-corner: #ff0070;
   --rec-visible: visible;
   --title-color: #DB00FF;
+  --accent-text-color: #ff0070;
   --background-text-color: #ff0070;
 }
 
