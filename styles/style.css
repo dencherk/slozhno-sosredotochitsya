@@ -337,7 +337,6 @@
     .footer__title {
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       align-self: center;
-      margin-inline-start: -15px;
     }
     .header__theme-menu {
       justify-self: center;
@@ -365,9 +364,4 @@
     .section__how {
       grid-template-columns: 32% 1fr;
     }
-    .footer__title {
-      align-items: center;
-      margin-left: 1px;
-    }
-
   }
