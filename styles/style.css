@@ -72,7 +72,7 @@
   }
   .header__rec::before {
     content: 'rec';
-    margin-inline-end: 2px;
+    margin-inline-end: 1px;
     margin-block-end: 1px;
     line-height: 25px;
     font-family: var(--accent-font);
@@ -86,8 +86,9 @@
     border-radius: 50%;
     width: 9px;
     height: 9px;
-    margin-inline-start: 10px;
+    margin-inline-start: 8px;
     margin-block-start: 5px;
+    margin-block-end: 2px;
     box-shadow: 0 0 4px 2px var(--accent-color);
   }
   .header__theme-menu {
@@ -127,16 +128,16 @@
   }
   .header__theme-menu-button:focus-visible {
     outline: none;
-    border-bottom: 1px solid var(--hover-color);
+    border-bottom: 1px solid var(--focus-color);
   }
   .header__theme-menu-button:active {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: 1px solid var(--hover-color);
+    border-bottom: 1px solid var(--focus-color);
   }
   .header__theme-menu-button_active {
-    border: 1px solid var(--hover-color);
+    border: 1px solid var(--focus-color);
     pointer-events: none;
   }
   .main__content {
@@ -255,6 +256,7 @@
     }
     .header__rec {
       inset-inline-end: 20px;
+      inset-block-start: 20px;
     }
     .header__rec::after {
       margin-inline-start: 8px;
@@ -272,7 +274,6 @@
     }
     .section__why,
     .section__how {
-      display: grid;
       grid-template-columns: 1fr 2fr;
     }
     .section__what {
@@ -318,7 +319,7 @@
       "tape street street";
     }
     .footer__title {
-      padding-left: 15px;
+      align-items: start;
     }
   }
   @media (min-width: 1024px) {
@@ -327,7 +328,7 @@
       block-size: 100vh;
       max-width: 1024px;
     }
-    .header__title{
+    .header__title {
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       align-self: center;
       line-height: 129.53px;
@@ -362,8 +363,11 @@
     }
     .section__why,
     .section__how {
-      display: grid;
       grid-template-columns: 32% 1fr;
+    }
+    .footer__title {
+      align-items: center;
+      margin-left: 1px;
     }
 
   }

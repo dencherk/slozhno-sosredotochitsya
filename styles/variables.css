@@ -6,6 +6,7 @@
   --button-text-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
   --hover-color: rgba(255, 0, 112, 0.4);
+  --focus-color: rgba(255, 0, 112, 1);
   --accent-color: #ff0070;
   --accent-color-corner: #ff0070;
   --accent-text-color: #ff0070;

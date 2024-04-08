@@ -4,12 +4,6 @@
   переключая тему
 */
 
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
 :root .theme_light {
   --background-color: #fff1f7;
   --text-color: #353430;
@@ -17,6 +11,7 @@
   --button-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
   --hover-color: rgba(50, 49, 45, 0.4);
+  --focus-color: rgba(53, 52, 48, 1);
   --rec-visible: none;
   --title-color: #FFC2E6;
   --background-text-color: #ff8dcb;
@@ -31,6 +26,7 @@
   --button-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
   --hover-color: rgba(50, 49, 45, 0.4);
+  --focus-color: rgba(53, 52, 48, 1);
   --rec-visible: none;
   --title-color: #FFC2E6;
   --background-text-color: #ff8dcb;
